@@ -1,0 +1,259 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #333;
+    text-decoration: none;
+    color: #333;
+}
+
+.authenticatedSection,
+.unauthenticatedSection {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logoutLink {
+    color: red;
+}
+
+h1 {
+    color: lightseagreen;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+
+#searchForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#searchForm input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#searchForm input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+article {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #333;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+div {
+    color: white;
+}
+
+#statusMessage {
+    color: red;
+}
+
+#edit {
+    color: red;
+    text-decoration: underline;
+}
+
+#addMovieForm,
+#addPlaylistForm,
+#editMovieForm,
+#loginForm,
+#registerForm,
+#ProfileForm,
+#editProfileForm {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+#addMovieForm label,
+#addPlaylistForm label,
+#editMovieForm label,
+#loginForm label,
+#registerForm label,
+#ProfileForm label,
+#editProfileForm label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#addMovieForm input,
+#addPlaylistForm input,
+#editMovieForm input,
+#loginForm input,
+#registerForm input,
+#ProfileForm input,
+#editProfileForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+#addMovieForm input[type="submit"],
+#editMovieForm input[type="submit"],
+#loginForm input[type="submit"],
+#registerForm input[type="submit"],
+#ProfileForm input[type="submit"],
+#editProfileForm input[type="submit"],
+.button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addMovieForm input[type="submit"]:hover,
+#editMovieForm input[type="submit"]:hover,
+#loginForm input[type="submit"]:hover,
+#registerForm input[type="submit"]:hover,
+#ProfileForm input[type="submit"]:hover,
+#editProfileForm input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#addPlaylistForm button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addPlaylistForm button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#addPlaylistForm select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 5px;
+    appearance: none;
+    background: url('path-to-arrow-icon.png') no-repeat right center;
+    background-color: white;
+}
+
+#addPlaylistForm select::-ms-expand {
+    display: none;
+}
+
+#addPlaylistForm select:hover {
+    border-color: #45a049;
+}
+
+#deleteMovieBtn,
+#deleteProfileBtn,
+.deletePlaylistBtn {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#deleteMovieBtn:hover {
+    background-color: #d32f2f;
+}
+
+#statusMessage,
+#loginForm #statusMessage,
+#registerForm #statusMessage,
+#addMovieForm #statusMessage {
+    text-align: center;
+    color: red;
+    margin-top: 15px;
+
+}
+
+.unauthenticatedSection p {
+    color: #ccc;
+}
+
+.unauthenticatedSection a {
+    color: lightseagreen;
+}
+
+p {
+    color: white;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#plogin {
+    color: rgb(242, 255, 62);
+    text-decoration: underline;
+}
+
+.playlists {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+input:disabled {
+    color: black;
+    background-color: white;
+}
+
+.center-text {
+    text-align: center;
+}

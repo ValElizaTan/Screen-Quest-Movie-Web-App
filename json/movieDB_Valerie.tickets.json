@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "6568a0eae957280ba362dccc"
+  },
+  "name": "GV Gold Class ",
+  "type": "Standard",
+  "price": "$45.00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a17e530371cb82c78470"
+  },
+  "name": "GV Gold Class",
+  "type": "HSBC",
+  "price": "$34.50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a1ea530371cb82c78474"
+  },
+  "name": "GV Gold Class",
+  "type": "HSBC Cresdit & Debit Card",
+  "price": "$43.00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a2e4530371cb82c78478"
+  },
+  "name": "GV",
+  "type": "Standard ",
+  "price": "$15.50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a30d530371cb82c7847a"
+  },
+  "name": "GV",
+  "type": "HSBC Movie Card",
+  "price": "$10.50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a334530371cb82c78480"
+  },
+  "name": "GV",
+  "type": "HSBC Credit & Debit Card",
+  "price": "$13.50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a3f7530371cb82c78484"
+  },
+  "name": "GV",
+  "type": "DBS PayLah",
+  "price": "$14.50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a40a530371cb82c78486"
+  },
+  "name": "GV",
+  "type": "DBS/POSB Credit & Debit Card",
+  "price": "$14.50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a673530371cb82c7848a"
+  },
+  "name": "Cathay",
+  "type": "Weekend Standard",
+  "price": "$15.50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a6f1530371cb82c7848e"
+  },
+  "name": "Cathay",
+  "type": "Weekday Standard",
+  "price": "$11.50",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a83a530371cb82c78492"
+  },
+  "name": "Shaw Theatres",
+  "type": "Adult Premiere",
+  "price": "$35.00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6568a851530371cb82c78496"
+  },
+  "name": "Shaw Theatres",
+  "type": "Adult Standard",
+  "price": "$15.50",
+  "__v": 0
+}]

@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.5",
+    "moviedb": "^0.2.12",
+    "validator": "^13.11.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "l1-wad-project-valelizatan",
+  "description": "Name:  Valerie Tan Wan Xin <br>\r Module Group: L1 <br>\r <br> \r ## Project Title\r ScreenQuest <br>\r <br> \r ## Background\r To display movies & a place where you can search & find a movie that could interest you. <br>\r <br>\r ## Key Features\r Write down clearly what are the things the user can perform with your web application.\r - Create Account\r - Login & Logout (not done)\r - Add, Update, Delete Movie\r - Search Movies\r - Add Ticket type\r - Search Ticket type (not done)\r - Create Playlist (not done)\r - Add Movie to playlist (not done)\r - Remove from playlist (not done)\r - View Playlists (not done)\r - Edit Profile (not done)\r - Change Password (not done)\r - Delete account (not done) <br>\r <br> \r ## External API(s) that you would like to use\r External APIs that I would use is a movie db API & I would use it for access & infomation of the movies.\r  - https://developer.themoviedb.org/docs <br>\r <br> \r ## Additional node modules that you would like to use\r Node modules that I would like to use is a validator for password.\r - https://www.npmjs.com/package/validator <br>\r - https://javascriptcentric.medium.com/30-node-js-modules-with-usecases-36950203722f <br>\r - https://www.turing.com/blog/top-npm-packages-for-node-js-developers/<br>\r <br>\r <br>\r :warning: This repository includes gitignore file which will not commit certain files or folders (especially node_modules folder) for a node.js project into the repository.  \r **Please do not remove the .gitignore file as it will help to minimize the size of the project in the repository.**",
+  "version": "1.0.0",
+  "main": "routes.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

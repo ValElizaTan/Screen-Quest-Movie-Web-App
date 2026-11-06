@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="/">Home</a>
+        <div class="authenticatedSection">
+            <a href="/addMovies.html">Add Movie</a>
+            <a href="/searchTicket.html">Search Tickets</a>
+            <a href="/addPlaylist.html">Add Playlist</a>
+            <a href="/profile.html">Profile</a>
+            <a href="#" id="logoutLink">Logout</a>
+        </div>
+        <div class="unauthenticatedSection">
+            <a href="/login.html">Login</a>
+            <a href="/register.html">Register</a>
+        </div>
+    </header>
+    <div class="authenticatedSection">
+        <section class="playlists">
+            <h1>Playlist</h1>
+        </section>
+    </div>
+    <div class="unauthenticatedSection">
+        <p>
+            You are not allowed to view playlist. Please <a href="/login.html">login</a> first.
+        </p>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/auth.js"></script>
+    <script src="/js/getPlaylist.js"></script>
+</body>
+
+</html>

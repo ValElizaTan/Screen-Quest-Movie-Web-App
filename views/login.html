@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <a href="/">Home</a>
+    </header>
+    <h1>Login</h1>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <br>
+        <input type="submit" value="Login">
+
+        <div id="statusMessage"></div>
+    </form>
+    <br>
+    <p>
+        New user? Click <a id="plogin" href="/register.html">here</a> to register for an account.
+    </p>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/auth.js"></script>
+</body>
+
+</html>
